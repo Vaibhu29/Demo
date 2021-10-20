@@ -1,0 +1,67 @@
+MySQL workbench:
+
+1. select * from table_name;
+
+2. select col1, col2, col3 from table_name;
+
+3. select * from table_name where col1 >= value
+
+------------------------------------------------------
+OutSystem | Service Studio:
+
+1. select {entity_name}.* from {entity_name};
+
+2. select {entity_name}.[attr1] , {entity_name}.[attr2] from {entity_name};
+
+3. select {entity_name}.* from {entity_name}
+	where {entity_name}.attr1 >= @parameter
+
+-------------------------------------------------------
+
+Table : Customer
+
+Id
+FirstName
+LastName
+UserName
+Email
+Phone
+Address
+Password
+---------------
+
+1	Vaibhu	W	admin	v@gmail.com	12345	India	admin@123
+2	Sam	I	sam	s@yahoo.com	54322	UK	admin@123
+
+1. Register | Save:
+	- Insert
+2. Login (Vaibhu)
+	- select UserName from Customer where UserName='admin' and Password='admin@123';
+		- admin
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
